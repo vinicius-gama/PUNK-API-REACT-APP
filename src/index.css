@@ -69,13 +69,17 @@ button:focus-visible {
 }
 
 .likedtrue {
-  background-color: green;
+  background-color: rgb(253, 181, 224);
+  border: solid 0.1rem rgb(251, 117, 186);
+  color: rgb(25, 25, 25);
 }
 
 .likedfalse {
-  background-color: red;
+  background-color: none;
+  border: solid 0.1rem rgb(111, 49, 49);
 }
 
 .likedtrue, .likedfalse {
   margin: 1rem;
+  padding: 0.5rem 1.25rem;
 }

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Beer = ({ name, description, image }) => {
     const [liked, setLike] = useState(false);
